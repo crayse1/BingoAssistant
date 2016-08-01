@@ -1,0 +1,67 @@
+﻿<UserControl
+    x:Class="BingoAssistant.BoardControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BingoAssistant"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="100"
+    d:DesignWidth="80" Loaded="UserControl_Loaded" DataContextChanged="UserControl_DataContextChanged">
+    <StackPanel>
+
+        <Grid x:Name="BingoGrid" RelativePanel.Below="Input" BorderBrush="Black" BorderThickness="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>                    
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="1"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="1"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="1"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="1"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="1"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="B1" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="B2" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="B3" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="B4" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="B5" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="I1" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="I2" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="I3" Grid.Row="5" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="I4" Grid.Row="7" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="I5" Grid.Row="9" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="N1" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="N2" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="N3" Grid.Row="5" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Free" FontSize="6" TextWrapping="Wrap"/>
+            <TextBlock x:Name="N4" Grid.Row="7" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="N5" Grid.Row="9" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="G1" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="G2" Grid.Row="3" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="G3" Grid.Row="5" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="G4" Grid.Row="7" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="G5" Grid.Row="9" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="O1" Grid.Row="1" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="O2" Grid.Row="3" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="O3" Grid.Row="5" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="O4" Grid.Row="7" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+            <TextBlock x:Name="O5" Grid.Row="9" Grid.Column="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10"/>
+        </Grid>
+        <TextBlock x:Name="txtName" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+    </StackPanel>
+</UserControl>

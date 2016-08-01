@@ -1,0 +1,2 @@
+MainPackage=C:\Code\HomeCode\BingoAssistant\bin\x64\Debug\BingoAssistant_1.0.4.0_x64_Debug.appx
+SymbolPackage=C:\Code\HomeCode\BingoAssistant\AppPackages\BingoAssistant_1.0.4.0_Debug_Test\BingoAssistant_1.0.4.0_x64_Debug.appxsym
